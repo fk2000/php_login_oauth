@@ -19,9 +19,11 @@ git clone後、common.phpを作成し、中にClient ID、Client Secret、Callba
 ## Install
 
 1. git clone
+
 `$ git clone https://github.com/fk2000/php_login_oauth.git`
 
 2.create common.php
+
 `$ vi common.php`
 
 ```
