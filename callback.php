@@ -4,7 +4,8 @@ require_once('common.php');
 //$_REQUESTはpost,getで受け取ったデータとcookieのデータを一緒くたにしたもの
 if( !isset($_REQUEST['code']) || $_REQUEST['code']==='' )
 {
- exit('KNYAN! ERROR OCCURED!');
+// exit('KNYAN! ERROR OCCURED!');
+header('Location: ./index.php');
 }
 $code = $_REQUEST['code'];
 
